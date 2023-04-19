@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задачи 7</title>
+    <link rel="stylesheet" href="additions/styles.css">
+</head>
+<body>
+        <div class="container" > 
+            <div class="divUl">
+                <ul class="list rounded">
+                </ul>
+            </div>        
+                
+            <div class="divSelect">
+                <img title="filter" src="filter.png"  alt="фильтр" class="filter" style="margin-right: 3px; height: 18px; width: 22px; ">
+                <select id="filter" class="text-field__input cursorPointer size">
+                    <option value="allTasks" id="allTasks">Все задачи</option>
+                    <option value="activeTasks" id="activeTasks">Активные задачи</option>
+                    <option value="finishedTasks" id="finishedTasks">Завершенные задачи</option>
+                </select>
+            </div>
+
+            <div class="divClearBtn">
+                <p class="pClass" id="pId"><i>Всего задач: 0</i></p>
+                <button id="clearFinishedTasks" class="clearBtn hide">Очистить завершенные дела</button>
+            </div>
+        </div>
+    <script src="additions/scripts.js">
+    </script>
+</body>
+</html>
